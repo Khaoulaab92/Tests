@@ -129,46 +129,40 @@ header h1{
 }
 
 .aboutme-title {
-    margin-left: 95px;
-    margin-top: 188px;
-    font-family: 'Norwester', sans-serif;
     font-size: 35px;
+    margin-top: 50px;
+    margin-left: 95px;
+    font-family: 'Norwester', sans-serif;
+    background-color: #CBB26A;
+    padding: 1%;
+    margin-right: 82px;
 }
 
 .aboutme-paragraph {
-    font-size: 30px;
-    margin-left: 130px;
+    margin-top: -70px;
+    font-size: 32px;
+    margin-left: 95px;
     font-family: 'Norwester', sans-serif;
-}
-
-.aboutme-background {
-    width: 80%;
-    height: 1380px;
     background-color: #CBB26A;
-    position: absolute;
-    top: 34%; 
-    left: 3%; 
-    z-index: -1; 
+    padding: 2%;
+    margin-right: 82px;
 }
 
-.aboutme-picture {
-    position: absolute;
-    top: 42%; 
-    left: 58%; 
+.aboutme-paragraph img {
     max-width: 100%;
     height: auto;
-    
 }
-
 .hobbies-title {
-    font-weight: bold;
     margin-left: 30px;
     font-family: 'Norwester', sans-serif;
-    font-size: 25px;
+    font-size: 10px;
+    padding: 1%;
 }
 
 .cards {
     font-family: 'Norwester', sans-serif;
+    max-width: 100%;
+    height: auto;
 }
 
 .card1:hover, .card2:hover, .card3:hover, .card4:hover {
@@ -183,22 +177,22 @@ header h1{
 }
 
 .card1 {
-  top: 38%; 
+  top: 40%; 
   left: 12%;
 }
 
 .card2 {
-  top: 40%; 
+  top: 42%; 
   left: 56%;  
 }
 
 .card3 {
-  top: 140%; 
+  top: 142%; 
   left: 12%;  
 }
 
 .card4 {
-  top: 142%; 
+  top: 144%; 
   left: 56%;  
 }
 
