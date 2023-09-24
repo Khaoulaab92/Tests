@@ -68,10 +68,11 @@ header h1{
     font-family: 'Norwester', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     .titre {
         top: 46%; 
-        left: 0.5%;
+        left: 0.1%;
+        width: 100%;
     }
 }
 
@@ -84,9 +85,10 @@ header h1{
     
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     .homepicture {
         left: 10%; 
+        width: 100%;
     }
 }
 
@@ -102,17 +104,18 @@ header h1{
     right: 90px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     .homelink {
-        top: 70%; 
-        right: 1%; 
+        right: 0%;
+        top: 70%;  
+        width: 100%;
     }
 }
 
 .social-media {
     position: absolute;
     top: 48%;
-    right: 60px; 
+    right: 1%;
     display: flex;
     flex-direction: column; 
     align-items: flex-end; 
@@ -124,16 +127,15 @@ header h1{
     margin-bottom: 6px; 
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
     .social-media {
-        top: 200px; 
-        right: 5px; 
-        transform: scale(0.8); 
+    width: 100%;   
+    top: 35%;
     }
 
     .social-media img {
-        width: 40px; 
-        height: 40px; 
+        width: 30px; 
+        height: 30px; 
         margin-bottom: 4px; 
     }
 }
@@ -156,14 +158,14 @@ header h1{
     width: 50%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   .home1 {
     width: 100%;
     display: block;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   .home2 {
     width: 100%;
     display: block;
@@ -235,14 +237,14 @@ header h1{
 
 
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   .firstCards {
     width: 100%;
     display: block;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   .secondCards {
     width: 100%;
     display: block;
@@ -287,11 +289,11 @@ header h1{
     margin-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   #homeFooter {
     width: 100%;
     display: block;
-    top: 410%;
+    top: 425%;
   }
 }
 
@@ -308,7 +310,7 @@ header h1{
     margin-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   #aboutMeFooter {
     width: 100%;
     display: block;
@@ -329,7 +331,7 @@ header h1{
     margin-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 620px) {
   #hobbiesFooter {
     width: 100%;
     display: block;
