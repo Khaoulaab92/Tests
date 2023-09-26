@@ -4,7 +4,7 @@
 
 header {
     font-family: 'Norwester', sans-serif;
-    background-color: #000000;
+    background-color: skyblue;
     text-align: center;
     height: 150px;
     position: relative;
@@ -63,23 +63,15 @@ header h1{
     z-index: 2;
     text-align: left; 
     position: absolute; 
-    margin-top: 180px; 
+    margin-top: 210px; 
     font-family: 'Norwester', sans-serif;
 }
 
 .homepicture {
     position: absolute;
     top: 27%;
-    left: 28%; 
-    max-width: 100%;
+    left: 21%; 
     height: auto;
-    
-}
-
-@media screen and (max-width: 940px) {
-    .homepicture {
-        left: 10%; 
-    }
 }
 
 .homelink a {
@@ -96,7 +88,7 @@ header h1{
 
 @media only screen and (max-width: 940px) {
     .homelink {
-        top: 360px;  
+        top: 320px;  
         position: relative;
     }
 }
@@ -118,7 +110,7 @@ header h1{
 
 @media screen and (max-width: 940px) {
     .social-media {
-        top: 30%; 
+        top: 26%; 
         right: 5px; 
         transform: scale(0.8); 
     }
@@ -276,7 +268,7 @@ header h1{
     color: #FFFFFF;
     top: 250%;
     font-family: 'Norwester', sans-serif;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 620px) {
@@ -297,7 +289,7 @@ header h1{
     color: #FFFFFF;
     top: 220%;
     font-family: 'Norwester', sans-serif;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 620px) {
@@ -318,7 +310,7 @@ header h1{
     color: #FFFFFF;
     top: 280%;
     font-family: 'Norwester', sans-serif;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 620px) {
